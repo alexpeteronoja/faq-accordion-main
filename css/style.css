@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/assets/images/background-pattern-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: 16px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+hr {
+    border: 1px solid;
+}
+
+.hide {
+    display: none;
+}
+
+#faq-section {
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.dropdown {
+    font-weight: 600;
+}
+
+.dropdown-btn {
+    cursor: pointer;
+}
+
+.dropdown-btn:hover {
+    color: hsl(292, 42%, 49%)
+}
+
+@media (min-width:998px) {
+    body {
+        background-image: url(/assets/images/background-pattern-desktop.svg);
+    }
+    #faq-section {
+        width: 644px;
+    }
+}
